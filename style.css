@@ -1,0 +1,18 @@
+h2 {
+    font-size: small;
+}
+
+.Profile {
+    margin: auto;
+    margin-top: 50px;
+    width: 15%;
+    height: 10vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}

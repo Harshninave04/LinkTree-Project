@@ -1,2 +1,2 @@
 # LinkTree-Project
- To maintain the links of all the social in one place , here i am making a clone of linktree with some bit of changes
+ "I am creating a personalized version of Linktree for my profile, where I will gather all my social media links in one convenient location, along with a few unique customizations."

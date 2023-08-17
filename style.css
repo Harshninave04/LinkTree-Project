@@ -22,6 +22,7 @@ h2 {
         border-radius: 30px;
     }
     
+
     header {
         width: 95%;
         max-width: 780px;
@@ -36,6 +37,7 @@ h2 {
         height: 40px;
         border-radius: 20px;
         background-color: rgb(240, 240, 240);
+        /* cursor: pointer; */
 }
 
 .container {
@@ -57,6 +59,11 @@ h2 {
     justify-content: space-between;
 }
 
+.tile:hover {
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+    transform: scale(1.02);
+}
 a {
     text-decoration: none;
     color: rgb(240, 240, 240);
@@ -68,4 +75,18 @@ a {
         height: 40px;
         background-color: rgb(52, 52, 52);
         border-radius: 20px;
+}
+/* .tile-share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+} */
+
+.icon {
+    margin: 8px;
+    margin-left: 10px;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
 }
